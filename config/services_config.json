@@ -1,0 +1,78 @@
+{
+    "services_to_disable": [
+        {
+            "name": "DiagTrack",
+            "display_name": "Connected User Experiences and Telemetry",
+            "description": "Telemetría de Windows",
+            "safe_for_gaming": true
+        },
+        {
+            "name": "dmwappushservice",
+            "display_name": "Device Management Wireless Application Protocol",
+            "description": "Servicio de gestión de dispositivos",
+            "safe_for_gaming": true
+        },
+        {
+            "name": "SysMain",
+            "display_name": "SysMain (Superfetch)",
+            "description": "Precarga de aplicaciones (puede ralentizar SSDs)",
+            "safe_for_gaming": true
+        },
+        {
+            "name": "WSearch",
+            "display_name": "Windows Search",
+            "description": "Indexación de búsqueda",
+            "safe_for_gaming": false
+        },
+        {
+            "name": "TabletInputService",
+            "display_name": "Touch Keyboard and Handwriting Panel Service",
+            "description": "Teclado táctil",
+            "safe_for_gaming": true
+        },
+        {
+            "name": "Fax",
+            "display_name": "Fax",
+            "description": "Servicio de fax",
+            "safe_for_gaming": true
+        },
+        {
+            "name": "HomeGroupListener",
+            "display_name": "HomeGroup Listener",
+            "description": "Grupo hogar (obsoleto)",
+            "safe_for_gaming": true
+        },
+        {
+            "name": "HomeGroupProvider",
+            "display_name": "HomeGroup Provider",
+            "description": "Grupo hogar (obsoleto)",
+            "safe_for_gaming": true
+        },
+        {
+            "name": "XblAuthManager",
+            "display_name": "Xbox Live Auth Manager",
+            "description": "Autenticación Xbox Live",
+            "safe_for_gaming": false
+        },
+        {
+            "name": "XblGameSave",
+            "display_name": "Xbox Live Game Save",
+            "description": "Guardado de juegos Xbox",
+            "safe_for_gaming": false
+        },
+        {
+            "name": "XboxNetApiSvc",
+            "display_name": "Xbox Live Networking Service",
+            "description": "Red Xbox Live",
+            "safe_for_gaming": false
+        }
+    ],
+    "critical_services": [
+        "Winmgmt",
+        "RpcSs",
+        "DcomLaunch",
+        "EventLog",
+        "PlugPlay"
+    ],
+    "warning": "No deshabilitar servicios críticos del sistema"
+}
