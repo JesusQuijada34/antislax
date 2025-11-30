@@ -30,33 +30,6 @@ Maximiza el rendimiento de tus juegos con un solo clic.
 
 ### 📊 Información del Sistema
 Obtén una vista rápida y clara de tu hardware.
-*   **Resumen de OS:** Versión, compilación y arquitectura de Windows.
-*   **Estado del Disco:** Espacio total, usado y libre en la unidad principal.
-*   **Detalles de Anti Slax:** Versión actual y estado de los privilegios.
-
-## Instalación y Uso
-
-### Requisitos Previos
-*   Windows 10 o Windows 11
-*   Python 3.8 o superior
-*   Privilegios de Administrador
-
-### Pasos
-1.  Clona el repositorio o descarga el código fuente.
-2.  Instala las dependencias necesarias:
-    ```bash
-    pip install PyQt5
-    ```
-3.  Ejecuta la aplicación con permisos de administrador (necesario para aplicar optimizaciones):
-    ```bash
-    python antislax.py
-    ```
-
-## Notas Importantes
-*   La aplicación requiere permisos de administrador para realizar cambios en el sistema.
-*   Se recomienda crear un punto de restauración del sistema antes de aplicar optimizaciones agresivas.
-
-## 📸 Capturas de Pantalla
 *(Próximamente: Imágenes de la interfaz de usuario)*
 
 ## 🔧 Solución de Problemas (FAQ)

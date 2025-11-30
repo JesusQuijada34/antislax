@@ -4,6 +4,7 @@
 
 ## 🌟 Destacados
 
+*   **Soporte Multiplataforma:** Ahora compatible con Linux (Debian/Ubuntu), permitiendo eliminar bloatware y limpiar el sistema.
 *   **Nueva Identidad Visual:** Hemos actualizado el icono de la aplicación para reflejar mejor nuestra misión de limpieza y velocidad.
 *   **Clasificación Actualizada:** La aplicación ahora está clasificada como 'ALL Everyone', haciéndola accesible para todos los usuarios.
 *   **Estabilidad Mejorada:** Se han realizado varios ajustes internos para asegurar que el proceso de optimización sea más seguro y confiable.
