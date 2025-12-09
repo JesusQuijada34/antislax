@@ -1,1 +1,6 @@
-# Dependencias del paquete
+
+abc
+ctypes
+distro
+lib
+winreg
