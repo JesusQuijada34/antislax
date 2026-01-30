@@ -1,55 +1,93 @@
-# Anti Slax - Sistema de Optimización
+# 🛡️ AntiSlax Pro
 
-**Anti Slax** es un sistema de optimización integral diseñado para gaming y proyectos de alto rendimiento. Elimina bloatware, limpia archivos basura y optimiza los servicios de Windows para asegurar que tu sistema funcione con la máxima eficiencia.
+[![Version](https://img.shields.io/badge/version-1.0--25.11--15.05-blue.svg)](https://github.com/JesusQuijada34/antislax)
+[![License](https://img.shields.io/badge/license-GPLv3-green.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-Windows-0078D4.svg)](https://www.microsoft.com/windows)
 
-## Características Detalladas
+**AntiSlax Pro** is a modern, high-performance Windows optimization and privacy enhancement tool. Designed with the elegant **Leviathan-UI**, it provides a streamlined wizard-based experience to clean, optimize, and debloat your Windows installation.
 
-### 🗑️ Eliminación de Bloatware
-Anti Slax escanea tu sistema en busca de aplicaciones preinstaladas que a menudo no son deseadas (bloatware).
-*   **Escaneo Inteligente:** Identifica aplicaciones de fabricantes y de Windows que consumen recursos innecesariamente.
-*   **Eliminación Segura:** Permite seleccionar qué aplicaciones eliminar, asegurando que no se borre nada crítico sin tu consentimiento.
+---
 
-### 🧹 Limpieza de Basura
-Libera espacio valioso en tu disco duro eliminando archivos que ya no son necesarios.
-*   **Archivos Temporales:** Limpia la carpeta `Temp` de Windows.
-*   **Caché del Sistema:** Elimina archivos de caché de actualizaciones y otros residuos.
-*   **Logs:** Borra archivos de registro antiguos que ocupan espacio.
+## ✨ Key Features
 
-### ⚙️ Optimización de Servicios
-Mejora el tiempo de arranque y la respuesta del sistema gestionando los servicios en segundo plano.
-*   **Análisis de Servicios:** Identifica servicios que se pueden deshabilitar de forma segura.
-*   **Optimización Selectiva:** Tú decides qué servicios optimizar.
-*   **Enfoque en Rendimiento:** Prioriza la liberación de RAM y CPU.
+-   **🚀 System Cleaning**: Deep cleaning of temporary files, DNS cache, Prefetch, Thumbnails, and browser caches (Chrome/Edge).
+-   **⚡ Ultimate Performance**: Automatically unlocks and activates the "Ultimate Performance" power plan and optimizes BCD settings for lower latency.
+-   **🎮 Gaming Tweaks**: Optimizes network throttling and system responsiveness for a superior gaming experience.
+-   **🔒 Privacy Tweaks**: Disables intrusive telemetry, tracking, and data collection services from Microsoft.
+-   **📦 Proactive Debloat**: Removes a comprehensive list of pre-installed bloatware and unnecessary applications (Clipchamp, Copilot, Bing News, etc.).
+-   **⚙️ Registry Optimization**: Applies expert-level registry tweaks to enhance Explorer performance, context menus, and system responsiveness.
+-   **🎨 Leviathan-UI**: A stunning, modern interface with glassmorphism effects, smooth animations, and a premium user experience.
 
-### 🎮 Modo Gaming
-Maximiza el rendimiento de tus juegos con un solo clic.
-*   **Game DVR:** Deshabilita la grabación en segundo plano de Xbox para reducir el uso de CPU/GPU.
-*   **Plan de Energía:** Activa automáticamente el plan de "Alto Rendimiento".
-*   **Optimizaciones de Pantalla Completa:** Deshabilita esta característica de Windows que a veces causa input lag.
-*   **Windows Update:** Pausa las actualizaciones automáticas para evitar interrupciones y uso de ancho de banda durante tus sesiones de juego.
+---
 
-### 📊 Información del Sistema
-Obtén una vista rápida y clara de tu hardware.
-*(Próximamente: Imágenes de la interfaz de usuario)*
+## 📸 Interface Preview
 
-## 🔧 Solución de Problemas (FAQ)
+*(Image placeholder - Generated based on project assets)*
+![AntiSlax Preview](assets/splash.png)
 
-**P: ¿Por qué necesito ejecutar como administrador?**
-R: Anti Slax realiza cambios profundos en la configuración del sistema (servicios, registro, archivos de sistema) que requieren permisos elevados para aplicarse correctamente.
+---
 
-**P: ¿Es seguro eliminar el bloatware?**
-R: Sí, pero siempre recomendamos revisar la lista de aplicaciones detectadas antes de confirmar la eliminación. Anti Slax intenta listar solo aplicaciones seguras de eliminar, pero la precaución es clave.
+## 🛠️ Requirements
 
-**P: ¿Puedo revertir los cambios?**
-R: Actualmente, la aplicación no cuenta con un botón de "Deshacer" universal. Se recomienda encarecidamente crear un **Punto de Restauración del Sistema** antes de usar las funciones de optimización.
+-   **OS**: Windows 10 or Windows 11.
+-   **Permissions**: Administrator privileges are mandatory to apply system-level changes.
+-   **Dependencies**: 
+    -   Python 3.x
+    -   PyQt5
+    -   Leviathan-UI (Framework)
 
-## 🤝 Contribuir
-¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar Anti Slax:
-1.  Haz un Fork del repositorio.
-2.  Crea una rama para tu función (`git checkout -b feature/NuevaFuncion`).
-3.  Haz tus cambios y commitea (`git commit -m 'Añadir NuevaFuncion'`).
-4.  Haz Push a la rama (`git push origin feature/NuevaFuncion`).
-5.  Abre un Pull Request.
+---
 
-## Licencia
-Este proyecto está bajo la licencia [MIT](LICENSE).
+## 🚀 Getting Started
+
+### Installation
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/JesusQuijada34/antislax.git
+    cd antislax
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    pip install PyQt5
+    # Ensure leviathan_ui is available in your environment
+    ```
+
+### Running the application
+
+Simply execute the main script:
+
+```bash
+python antislax.py
+```
+
+> **Note**: The application will automatically request administrator privileges if not already elevated.
+
+---
+
+## 📂 Project Structure
+
+-   `antislax.py`: Main application entry point and core logic.
+-   `app/`: Icons and application resources.
+-   `assets/`: UI assets, logos, and splash screens.
+-   `docs/`: Detailed project documentation.
+-   `source/`: Source containers and additional assets.
+-   `autorun.bat`: Utility for startup configuration.
+
+---
+
+## 📜 License
+
+This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 👤 Author
+
+**Jesus Quijada (JesusQuijada34)**  
+*Founder of Influent & Developer of Anti Slax*
+
+---
+
+*"Optimize your Windows experience, reclaim your privacy."*

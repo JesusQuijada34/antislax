@@ -1,17 +1,35 @@
-# Notas de la Versión v1.0-25.11-15.05
+# Notas de la Versión v1.1-26.01-21.23
 
-¡Nos complace anunciar la última actualización de **Anti Slax**! Esta versión trae mejoras visuales y ajustes bajo el capó para una experiencia de optimización más fluida.
+¡Nos complace anunciar la gran actualización **v1.1** de **AntiSlax Pro**! Esta versión introduce optimizaciones críticas de rendimiento y una limpieza mucho más profunda para Windows.
 
-## 🌟 Destacados
+---
 
-*   **Soporte Multiplataforma:** Ahora compatible con Linux (Debian/Ubuntu), permitiendo eliminar bloatware y limpiar el sistema.
-*   **Nueva Identidad Visual:** Hemos actualizado el icono de la aplicación para reflejar mejor nuestra misión de limpieza y velocidad.
-*   **Clasificación Actualizada:** La aplicación ahora está clasificada como 'ALL Everyone', haciéndola accesible para todos los usuarios.
-*   **Estabilidad Mejorada:** Se han realizado varios ajustes internos para asegurar que el proceso de optimización sea más seguro y confiable.
+## 🚀 Lo Nuevo en v1.1
 
-## 🛠️ Cambios Técnicos
+*   **⚡ Plan de Energía "Ultimate Performance"**: Ahora puedes desbloquear y activar automáticamente el plan de energía más potente de Windows para un desempeño máximo de la CPU.
+*   **🎮 Optimizaciones Extreme para Gaming**: 
+    *   Ajustes de `NetworkThrottlingIndex` para latencia mínima en línea.
+    *   Prioridad de GPU escalada para procesos de juegos.
+    *   Desactivación de temporizadores sintéticos y tics dinámicos (BCD) para reducir el *input lag*.
+*   **🧹 Motor de Limpieza Profunda**:
+    *   Limpieza de caché de navegadores (Chrome y Edge).
+    *   Eliminación de archivos de Prefetch y cachés de miniaturas.
+    *   Ejecución de mantenimiento de componentes DISM para recuperar espacio de actualizaciones.
+*   **⚙️ Interfaz más Rápida**: Reducción de retardos en menús y previsualizaciones del sistema para que el SO se sienta más ágil.
 
-*   Actualización de `details.xml` con la nueva versión y metadatos.
-*   Limpieza de código y optimización de recursos.
+---
 
-¡Gracias por usar Anti Slax para mantener tu PC rápido y limpio!
+## 🛡️ Mejoras de Privacidad y Debloat
+*   **Filtrado de Aplicaciones**: Lista de debloat actualizada para incluir las últimas apps preinstaladas de Microsoft.
+*   **Ajustes de Registro**: Nuevos tweaks de telemetría y recolección de datos desactivados.
+
+---
+
+## 📜 Historial de Versiones Anteriores (v1.0)
+*   Soporte Multiplataforma inicial.
+*   Nueva Identidad Visual e iconos actualizados.
+*   Estabilidad mejorada en el proceso de optimización.
+
+---
+
+¡Gracias por confiar en AntiSlax Pro para llevar tu Windows al siguiente nivel!

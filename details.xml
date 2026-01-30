@@ -1,1 +1,11 @@
-<app><publisher>Influent</publisher><app>antislax</app><name>Anti Slax</name><version>v1.0-25.11-15.05</version><correlationid>5f70c499bbccf84bdce0b85b9a2a11a208422657f96cf7f965d226948adf285e</correlationid><rate>ALL Everyone</rate><author>JesusQuijada34</author><platform>AlphaCube</platform></app>
+<?xml version="1.0" encoding="utf-8"?>
+<app>
+	<publisher>Influent</publisher>
+	<app>antislax</app>
+	<name>Anti Slax</name>
+	<version>v1.1-26.01-21.23</version>
+	<correlationid>5f70c499bbccf84bdce0b85b9a2a11a208422657f96cf7f965d226948adf285e</correlationid>
+	<rate>ALL Everyone</rate>
+	<author>JesusQuijada34</author>
+	<platform>Knosthalij</platform>
+</app>

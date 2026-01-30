@@ -1,6 +1,2 @@
-
-abc
-ctypes
-distro
-lib
-winreg
+PyQt5==5.15.10
+leviathan-ui
